@@ -1,29 +1,18 @@
-import { useEffect, useState } from "react";
-import users from "./users.json";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Row from "./Row";
-
+import Main from "./Components/Main";
+import Workout from "./Components/Workout";
+import Nutrition from "./Components/Nutrition";
 function App() {
-  const [userData, setUserData] = useState([]);
-
-  const data = async () => {
-    try {
-      const searchData = users;
-      console.log(searchData);
-      setUserData(searchData);
-      console.log(userData);
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  useEffect(() => {
-    data();
-  }, [userData]);
-
   return (
     <div className="app">
-      <Row userData={userData} />
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Main />} />
+          <Route exact path="/:userId/workout" element={<Workout />} />
+          <Route exact path="/:userId/nutrition" element={<Nutrition />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

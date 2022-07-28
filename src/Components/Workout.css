@@ -1,0 +1,20 @@
+.Workout{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 200px;
+    /* margin-left: 500px; */
+    /* margin: auto; */
+}
+.Workout > h1 {
+    margin-left:600px;
+
+}
+.Workout_details{
+    margin: 100px;
+    margin-top: 0px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

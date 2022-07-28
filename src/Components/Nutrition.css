@@ -1,0 +1,20 @@
+.nutrition{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 200px;
+    /* margin-left: 500px; */
+    /* margin: auto; */
+}
+.nutrition > h1 {
+    margin-left:600px;
+
+}
+.nutrition_details{
+    margin: 100px;
+    margin-top: 0px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

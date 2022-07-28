@@ -1,52 +1,62 @@
-[{
+[
+  {
 "userId":1,
+"picture": "https://www.kapwing.com/resources/content/images/2020/06/Screen-Shot-2020-06-21-at-12.55.36-PM.png",
 "name": "Aman",
 "email":"amanhuriya2@gmail.com",
-"steps walked": 123,
-"steps target": 1234,
+"stepsWalked": 123,
+"stepsTarget": 1234,
 "performedDate": "Fri Jul 22 2022 10:58:17",
-"scheduledDate": "Fri Jul 22 2022 10:58:17",
-"calorieIntake": 123,
+"scheduledDate": "Fri Jul 29 2022 10:58:17",
+"calorieIntake": 100,
 "calorieTarget": 1234,
-"proteinConsumed": 123,
+"proteinConsumed": 121,
 "proteinTarget": 1234,
-"carbConsumed":123,
+"carbConsumed":130,
 "carbTarget":1234,
-"fatConsumed": 123,
-"fatTarget":1234
+"fatConsumed": 121,
+"fatTarget":1234,
+"feedback": false
 },
 {
 "userId":2,
+"picture": "https://www.kapwing.com/resources/content/images/2020/06/Screen-Shot-2020-06-21-at-12.55.36-PM.png",
+
 "name": "Aman",
 "email":"amanhuriya2@gmail.com",
-"steps walked": 123,
-"steps target": 1234,
+"stepsWalked": 122,
+"stepsTarget": 1234,
 "performedDate": "Fri Jul 22 2022 10:58:17",
 "scheduledDate": "Fri Jul 22 2022 10:58:17",
-"calorieIntake": 123,
+"calorieIntake": 167,
 "calorieTarget": 1234,
-"proteinConsumed": 123,
+"proteinConsumed": 126,
 "proteinTarget": 1234,
-"carbConsumed":123,
+"carbConsumed":153,
 "carbTarget":1234,
-"fatConsumed": 123,
-"fatTarget":1234
+"fatConsumed": 153,
+"fatTarget":1234,
+"feedback": false
 },
 {
     "userId":3,
     "name": "Aman",
+    "picture": "https://www.kapwing.com/resources/content/images/2020/06/Screen-Shot-2020-06-21-at-12.55.36-PM.png",
     "email":"amanhuriya2@gmail.com",
-    "steps walked": 123,
-    "steps target": 1234,
+    "stepsWalked": 1234,
+    "stepsTarget": 1234,
     "performedDate": "Fri Jul 22 2022 10:58:17",
     "scheduledDate": "Fri Jul 22 2022 10:58:17",
-    "calorieIntake": 123,
+    "calorieIntake": 125,
     "calorieTarget": 1234,
-    "proteinConsumed": 123,
+    "proteinConsumed": 166,
     "proteinTarget": 1234,
-    "carbConsumed":123,
+    "carbConsumed":167,
     "carbTarget":1234,
-    "fatConsumed": 123,
-    "fatTarget":1234
+    "fatConsumed": 157,
+    "fatTarget":1234,
+    "feedback": true
     }
 ]
+
+
